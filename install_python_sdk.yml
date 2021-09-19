@@ -1,4 +1,5 @@
 ---
-- name: Installing oci python library using Ansible pip module
+- name: Install and upgrade pip
   pip:
     name: oci
+    executable: pip3
