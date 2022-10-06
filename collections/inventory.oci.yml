@@ -1,8 +1,5 @@
 plugin: oracle.oci.oci
 
-# Optional fields to specify oci connection config:
-config_file: ~/.oci/config
-config_profile: DEFAULT
 compartments:
   - compartment_ocid: "ocid1.compartment.oc1..aaaaaaaacu7ddf6k7ug6lwr7ebwmcm5c7nvdg4vpsv4656vclzf6fgzhellq"
     fetch_compute_hosts: true
