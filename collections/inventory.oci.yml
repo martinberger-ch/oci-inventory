@@ -3,6 +3,8 @@ plugin: oracle.oci.oci
 compartments:
   - compartment_ocid: "ocid1.compartment.oc1..aaaaaaaacu7ddf6k7ug6lwr7ebwmcm5c7nvdg4vpsv4656vclzf6fgzhellq"
     fetch_compute_hosts: true
+  - compartment_ocid: "ocid1.compartment.oc1..aaaaaaaakicpzhdlwkos3t2w3x56f2qejk7e46pbdto5w2x2o6lejrfbprvq"
+    fetch_compute_hosts: true
 hostname_format_preferences:
   - "private_ip"
   - "public_ip"
